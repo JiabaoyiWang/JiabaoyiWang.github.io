@@ -1,58 +1,71 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "Jiabaoyi Wang — Ph.D. student researching embodied AI security and trustworthy robotics."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<span class="anchor" id="about-me"></span>
 
-<span class='anchor' id='about-me'></span>
+# About Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hello! I am **Jiabaoyi Wang (王嘉宝仪)**, a Ph.D. student at **Zhejiang University**, affiliated with the **Ubiquitous System Security Lab (USSLAB)**.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on the **security and trustworthiness of embodied AI systems**, especially **vision-language models (VLMs)**, **vision-language-action models (VLAs)**, and **world-action models (WAMs)**. I am interested in understanding how errors in perception, learned world representations, and action generation can propagate into unsafe physical behavior—and in developing principled ways to evaluate and mitigate these risks.
 
+Before joining Zhejiang University, I studied at **Xi'an Jiaotong University** and spent **Fall 2024** as an exchange student at the **University of California, Berkeley**.
+
+<span class="anchor" id="research"></span>
+
+# 🔬 Research Interests
+
+- **Embodied AI Security & Red Teaming:** Adversarial robustness, physical-world attacks, and systematic safety evaluation of robotic foundation models.
+- **World-Action Models & Predictive Safety:** Reliability of learned world predictions, action-effect understanding, and model-based assessment of robot behavior.
+- **Safety Alignment of VLMs and VLAs:** The relationship between safety-related understanding, decision making, and generated actions.
+- **Robotic System Security:** Safety issues and defense mechanisms across the perception–planning–control pipeline.
+
+<span class="anchor" id="news"></span>
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+- **Oct. 2026:** Began Ph.D. studies at Zhejiang University, USSLAB.
+- **Fall 2024:** Studied at UC Berkeley as an exchange student.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<span class="anchor" id="projects"></span>
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# 🛠 Selected Research & Projects
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Embodied AI and World-Action Model Security** *(ongoing research)*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- Studying safety-relevant failure modes of vision-language-action and world-action models, with a focus on evaluation methods connecting model predictions and actual robot behavior.
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+**Self-Balancing Cube Robot** *(UC Berkeley, ME 139)*
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Worked on a reaction-wheel-based balancing cube with embedded sensing, actuation, and feedback control, integrating ESP32-based real-time control.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Underwater Snake-like Robot** *(student project)*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- Explored embedded sensing and coordinated actuator control for a bio-inspired underwater robot.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<span class="anchor" id="education"></span>
+
+# 🎓 Education
+
+- **2026 – Present:** Ph.D. student, **Zhejiang University**, Ubiquitous System Security Lab.
+- **Undergraduate studies:** **Xi'an Jiaotong University**, Automation / Electronic and Information Engineering.
+- **Fall 2024:** Exchange student, **University of California, Berkeley**.
+
+<span class="anchor" id="publications"></span>
+
+# 📝 Publications
+
+Publications and preprints will be listed here when publicly available.
+
+<span class="anchor" id="contact"></span>
+
+# ✉️ Contact
+
+For research-related discussions and collaborations, you can find me on [GitHub](https://github.com/JiabaoyiWang). Additional academic contact information will be added here.
