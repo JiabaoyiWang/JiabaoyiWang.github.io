@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiabaoyi Wang (王嘉宝仪)"
-  avatar           : "https://avatars.githubusercontent.com/u/180881842?v=4"
+  avatar           : "images/jiabaoyi-avatar.jpg"
   bio              : "Ph.D. Student at Zhejiang University"
   location         : "Zhejiang University, China"
   employer         : "Ubiquitous System Security Lab (USSLAB)"
