@@ -34,22 +34,6 @@ Before joining Zhejiang University, I studied at **Xi'an Jiaotong University** a
 - **Oct. 2026:** Began Ph.D. studies at Zhejiang University, USSLAB.
 - **Fall 2024:** Studied at UC Berkeley as an exchange student.
 
-<span class="anchor" id="projects"></span>
-
-# 🛠 Selected Research & Projects
-
-**Embodied AI and World-Action Model Security** *(ongoing research)*
-
-- Studying safety-relevant failure modes of vision-language-action and world-action models, with a focus on evaluation methods connecting model predictions and actual robot behavior.
-
-**Self-Balancing Cube Robot** *(UC Berkeley, ME 139)*
-
-- Worked on a reaction-wheel-based balancing cube with embedded sensing, actuation, and feedback control, integrating ESP32-based real-time control.
-
-**Underwater Snake-like Robot** *(student project)*
-
-- Explored embedded sensing and coordinated actuator control for a bio-inspired underwater robot.
-
 <span class="anchor" id="education"></span>
 
 # 🎓 Education
